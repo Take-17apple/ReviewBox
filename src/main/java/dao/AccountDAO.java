@@ -12,7 +12,7 @@ public class AccountDAO {
 	
 	private final String DB_URL = "jdbc:mysql://localhost:3306/reviewbox";
 	private final String DB_USER = "root";
-	private final String DB_PASS = "haruprogram";
+	private final String DB_PASS = "password1234";
 	
 	public boolean accountCheck(Account a) {
 		// 登録されているか確認し登録されていたらアカウントIDを取得する
