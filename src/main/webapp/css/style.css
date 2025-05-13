@@ -1,0 +1,59 @@
+@charset "UTF-8";
+/* 全体 */
+* {
+	border-radius: 10px; /* 枠のコーナーに丸みを持たせる */
+	margin: 3px;
+	padding: 3px;
+}
+
+/* リンク */
+.a-link {
+	display: inline-block; /* インライン要素をブロック要素に変更する( width, margin 等を使える様にする) */
+	text-decoration: none; /* 下線を消す */
+	border: 1px solid  skyblue;
+}
+.a-link:hover {
+	transform: translateY(-2px);  /* 少し浮かせる効果 */
+}
+
+/* ボタン共通 */
+button {
+	border: 1px solid blue;
+}
+button:hover {
+	transform: translateY(-2px);  /* 少し浮かせる効果 */
+}
+
+/* ログイン用 */
+.login-form label {
+	display: inline-block;
+	width: 120px;
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+	border: 1px solid black;
+	width: 200px;
+}
+
+/* 商品リスト */
+.work-list-table {
+	border: 2px solid black;
+}
+.work-list-table th,
+.work-list-table td,
+.post-table th,
+.post-table td {
+	border: 2px solid black;
+}
+
+/* 商品投稿 */
+.post-form input[type="text"],
+.post-form select,
+.post-form textarea {
+	border: 2px solid black;
+}
+
+/* 商品検索 */
+.main-form textarea {
+	width: 300px;
+}
